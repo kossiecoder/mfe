@@ -18,7 +18,6 @@ export default ({ onSignIn }) => {
             },
             onSignIn,
         });
-
         history.listen(onParentNavigate);
     }, []);
 
